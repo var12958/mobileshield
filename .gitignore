@@ -1,0 +1,6 @@
+.env
+
+# Large datasets and generated training artifacts
+CSVs/
+data/processed/
+models/
