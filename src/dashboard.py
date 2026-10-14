@@ -50,7 +50,10 @@ from src.predict_flow import FlowPredictor
 
 import os
 
-API_BASE_URL = os.getenv("API_BASE_URL", "http://127.0.0.1:8000").rstrip("/")
+API_BASE_URL = os.getenv(
+    "API_BASE_URL",
+    "https://internet-headset-starting-immigrants.trycloudflare.com"
+).rstrip("/")
 ADMIN_API_TOKEN = os.getenv("ADMIN_API_TOKEN", "")
 _admin_token_pairs = {
     ADMIN_API_TOKEN[index:index + 2] for index in range(len(ADMIN_API_TOKEN) - 1)
