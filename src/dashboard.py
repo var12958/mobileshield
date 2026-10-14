@@ -755,7 +755,7 @@ def render_dashboard() -> None:
         {device_badge}
         {capture_badge}
         {pcap_badge}
-        <span style="margin-left:auto; color:#64748b; font-size:0.75rem;">Endpoint: 127.0.0.1:8000 &bull; Tunnel: adb reverse tcp:8000</span>
+        <span style="margin-left:auto; color:#64748b; font-size:0.75rem;">Endpoint: Cloudflare Tunnel &bull; Backend: Remote</span>
     </div>
     """, unsafe_allow_html=True)
 
