@@ -462,7 +462,7 @@ def init_session_state():
     if "data_mode" not in st.session_state:
         st.session_state.data_mode = "IDLE"
     if "predictor" not in st.session_state:
-        st.session_state.predictor = FlowPredictor()
+        st.session_state.predictor = None
     if "diagnostic_history" not in st.session_state:
         st.session_state.diagnostic_history = []
     if "pcap_validation_result" not in st.session_state:
