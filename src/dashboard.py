@@ -52,7 +52,7 @@ import os
 
 API_BASE_URL = os.getenv(
     "API_BASE_URL",
-    "https://internet-headset-starting-immigrants.trycloudflare.com"
+    "https://holder-negotiations-provision-handy.trycloudflare.com"
 ).rstrip("/")
 ADMIN_API_TOKEN = os.getenv("ADMIN_API_TOKEN", "")
 _admin_token_pairs = {
@@ -1291,3 +1291,4 @@ def render_dashboard() -> None:
         """, unsafe_allow_html=True)
 
 render_dashboard()
+
